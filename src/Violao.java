@@ -1,41 +1,41 @@
 public class Violao
 {
-    private String Marca;
-    private String Modelo;
+    private String marca;
+    private String modelo;
 
-    public Violao(String marc, String mod)
+    public Violao(String marca, String modelo)
     {
-        this.Marca = marc;
-        this.Modelo = mod;
+        this.marca = marca;
+        this.modelo = modelo;
     }
 
 
     public void setMarca(String nomeMarca)
     {
-        this.Marca = nomeMarca;
+        this.marca = nomeMarca;
     }
 
     public String getMarca()
     {
-        return this.Marca;
+        return this.marca;
     }
  
     public void setModelo(String nomeModelo)
     {
-        this.Modelo = nomeModelo;
+        this.modelo = nomeModelo;
     }
 
     public String  getModelo()
     {
-        return this.Modelo;
+        return this.modelo;
     }
 
     public void status()
     {
         System.out.println("-----------------");
         System.out.println("Violao");
-        System.out.println("Marca: " + this.Marca);
-        System.out.println("Modelo: " + this.Modelo);
+        System.out.println("Marca: " + this.marca);
+        System.out.println("Modelo: " + this.modelo);
         System.out.println("-----------------");
     }
 
